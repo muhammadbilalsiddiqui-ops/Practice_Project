@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="140dp"
+    android:viewportWidth="320"
+    android:viewportHeight="140">
+
+    <!-- Card dark background -->
+    <path
+        android:pathData="M0,0 h320 v140 h-320 z"
+        android:fillColor="#161B22" />
+
+    <!-- Grid lines -->
+    <path
+        android:pathData="M20,20 L300,20 M20,50 L300,50 M20,80 L300,80 M20,110 L300,110"
+        android:strokeColor="#21262D"
+        android:strokeWidth="1" />
+
+    <path
+        android:pathData="M60,10 L60,130 M120,10 L120,130 M180,10 L180,130 M240,10 L240,130"
+        android:strokeColor="#21262D"
+        android:strokeWidth="1" />
+
+    <!-- Chart line (glowing orange/gold) -->
+    <path
+        android:pathData="M20,100 Q60,70 100,85 T180,40 T260,60 T300,20"
+        android:strokeColor="#F7931A"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Chart line 2 (subtle green) -->
+    <path
+        android:pathData="M20,80 Q60,110 100,95 T180,70 T260,90 T300,45"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Glowing points -->
+    <path
+        android:pathData="M180,40 A3,3 0 1,1 180,46 A3,3 0 1,1 180,40z"
+        android:fillColor="#FFB74D" />
+    <path
+        android:pathData="M300,20 A3,3 0 1,1 300,26 A3,3 0 1,1 300,20z"
+        android:fillColor="#FFB74D" />
+
+</vector>
