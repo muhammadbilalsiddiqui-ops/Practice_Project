@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#F7931A</color>
+    <color name="primary_dark">#D4790E</color>
+    <color name="primary_light">#FFB74D</color>
+
+    <!-- Background Colors -->
+    <color name="background_dark">#0D1117</color>
+    <color name="surface_dark">#161B22</color>
+    <color name="surface_elevated">#1C2128</color>
+    <color name="header_background">#0F1318</color>
+    <color name="footer_background">#0A0E13</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="text_tertiary">#6E7681</color>
+
+    <!-- Accent Colors -->
+    <color name="green_positive">#2EA043</color>
+    <color name="red_negative">#F85149</color>
+    <color name="error_red">#F44336</color>
+
+    <!-- Card Colors -->
+    <color name="card_background">#161B22</color>
+    <color name="card_stroke">#30363D</color>
+
+    <!-- Divider -->
+    <color name="divider">#21262D</color>
+
+    <!-- Splash Gradient -->
+    <color name="splash_start">#0D1117</color>
+    <color name="splash_end">#1A1208</color>
+
+    <!-- Standard -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

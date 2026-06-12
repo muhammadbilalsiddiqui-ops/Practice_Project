@@ -16,22 +16,22 @@
 
     <!-- Bitcoin-style "C" letter for CoinGecko -->
     <path
-        android:fillColor="@android:color/transparent"
         android:pathData="M62,42 C62,42 58,38 52,38 C44,38 38,44 38,54 C38,64 44,70 52,70 C58,70 62,66 62,66"
         android:strokeWidth="4"
-        android:strokeColor="#F7931A" />
+        android:strokeColor="#F7931A"
+        android:fillColor="@android:color/transparent" />
 
     <!-- Coin dollar lines top -->
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M52,34 L52,38"
+        android:fillColor="#F7931A"
+        android:pathData="M52,34 L52,38" 
         android:strokeWidth="3"
         android:strokeColor="#F7931A" />
 
     <!-- Coin dollar lines bottom -->
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M52,70 L52,74"
+        android:fillColor="#F7931A"
+        android:pathData="M52,70 L52,74" 
         android:strokeWidth="3"
         android:strokeColor="#F7931A" />
 

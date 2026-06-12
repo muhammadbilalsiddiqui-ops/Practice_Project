@@ -5,10 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-
-// 👇 THIS IS THE BINDING IMPORT — ADD THIS!
+import dagger.hilt.android.AndroidEntryPoint
 import com.example.practice_project.databinding.ActivityMainBinding
+import com.example.practice_project.presentation.home.HomeFragment
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -26,8 +27,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        binding.button.setOnClickListener {
-            binding.text1.text = "Integrated App with Api"
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, HomeFragment())
+                .commit()
         }
     }
 }

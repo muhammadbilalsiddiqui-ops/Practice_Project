@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Practice_Project</string>
+    <string name="app_name">CoinGecko</string>
+    <string name="splash_tagline">Track Your Crypto</string>
+    <string name="home_welcome">Welcome to CoinGecko</string>
+    <string name="home_description">Stay updated with real-time cryptocurrency prices, market caps, and detailed information for the top 100 coins.</string>
+    <string name="home_explore_button">Explore Coins</string>
+    <string name="header_coin_list">Cryptocurrencies</string>
+    <string name="header_coin_detail">Coin Detail</string>
+    <string name="footer_text">Powered by CoinGecko API</string>
+    <string name="back">Back</string>
+    
+    <!-- Profile Screen -->
+    <string name="header_profile">My Profile</string>
+    <string name="profile_name">Alex Carter</string>
+    <string name="profile_email">alex.carter@cryptotracker.com</string>
+    <string name="profile_joined">Member Since: June 2026</string>
+    <string name="profile_watchlist_title">Favorite Coins</string>
+    <string name="profile_watchlist_value">12</string>
+    <string name="profile_portfolio_title">Portfolio Value</string>
+    <string name="profile_portfolio_value">$12,450.00</string>
+    <string name="profile_sec_title">Account Security</string>
+    <string name="profile_settings_title">App Settings</string>
+    <string name="profile_help_title">Help &amp; Support</string>
+    <string name="profile_logout_title">Logout</string>
 </resources>
